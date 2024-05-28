@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.team-matches-container {
+  width: 100vw;
+
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.banner-image {
+  width: 90%;
+  margin-top: 30px;
+}
+.heading {
+  font-family: Bree Serif;
+  align-self: flex-start;
+  color: white;
+  margin-left: 170px;
+}
+.match-card-list {
+  list-style: none;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
